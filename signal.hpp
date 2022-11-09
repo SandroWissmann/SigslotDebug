@@ -784,8 +784,8 @@ protected:
     void disconnect_all() {
         boost::nowide::cout << "disconnect_all before lock;\n";
         std::unique_lock<Lockable> _{m_mutex};
-        boost::nowide::cout << "disconnect_all before m_connections.clear(); size: "<< m_connections.size() << '\n';
-        m_connections.clear();
+        boost::nowide::cout << "disconnect_all before m_connections.clear(); size: "<< m_connections.size() << '\n';  
+        m_connections.clear();    // We get stuck here
         boost::nowide::cout << "disconnect_all finished\n";
     }
 

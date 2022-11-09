@@ -160,10 +160,10 @@ int main()
     // WindowMenuMain: Invokes slot on_button_left_clicked
     // WindowMenuMain: Emits signal change_window_requested
     // WindowManager: Invokes slot on_change_window_requested
-    // WindowManager: Destroy WindowMenuMain
+    // WindowManager: Destroy WindowMenuMain  // we get stuck here
     // WindowManager: Create WindowFamilySelection
     std::cout << "int main() windowManager.windowManager.handle_input\n";
-    windowManager.handle_input();  // we get stuck somewhere here
+    windowManager.handle_input();  // we get stuck here
 
     std::cout << "int main() End\n";
 }
