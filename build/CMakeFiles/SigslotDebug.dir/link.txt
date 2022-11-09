@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/SigslotDebug.dir/main.cpp.o -o SigslotDebug 

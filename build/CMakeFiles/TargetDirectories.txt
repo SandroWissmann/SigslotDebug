@@ -1,0 +1,3 @@
+/home/sandro/Documents/SigslotDebug/build/CMakeFiles/SigslotDebug.dir
+/home/sandro/Documents/SigslotDebug/build/CMakeFiles/edit_cache.dir
+/home/sandro/Documents/SigslotDebug/build/CMakeFiles/rebuild_cache.dir
